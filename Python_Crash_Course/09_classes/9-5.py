@@ -7,8 +7,8 @@ class User():
         self.login_attempts = login_attempts
 
     def describe_user(self):
-        print("User's name is", self.first_name.title(), self.last_name.title() + '.',
-              'He is', self.age, 'years old.',
+        print("User's name is", self.first_name.title(), self.last_name.title() + '.\n'
+              'He is', self.age, 'years old.\n'
               'He is from', self.city + '.')
 
     def greet_user(self):
